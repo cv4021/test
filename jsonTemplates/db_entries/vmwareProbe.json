@@ -1,0 +1,17 @@
+{
+    "probe": "vmware",
+    "csv_tab": "VMWARE",
+    "keyword": "SnapshotCount",
+    "severity": "default sau environment",
+    "severity_values": ["default", "environment"],
+    "Severity_mapping": {
+        "default": "SEV-2",
+        "environment": {
+            "prod": "",
+            "test": "",
+            "dev": ""
+        }
+    },
+    "remedy_queue": "os_type",
+    "remedy_queue_values": ["os_type"]
+}
